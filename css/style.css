@@ -1,0 +1,34 @@
+*{
+    font-size: 10px;
+}
+h1{
+    color: red !important;
+    font-size: 2em;
+}
+h2{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+#ten-truong{
+    text-decoration: underline;
+    font-size: 2.2em;
+}
+.container{
+    border-color: blue;
+    border-width: 8px;
+    border-style: solid;
+    padding: 10px;
+}
+.container:hover{
+    background: gold;
+}
+.container > div{
+    border: 7px solid aqua;
+    padding: 10px;
+    border-radius: 50px 0px;
+}
+.container > div:hover{
+    background: linear-gradient(red, black);
+}

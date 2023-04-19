@@ -1,0 +1,42 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top{
+    display: flex;
+    background-color: #F2F2F2;
+    padding: 0px 10px;
+}
+.logo{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: fantasy;
+    color: #0052DA;
+}
+.menu{
+    flex-grow: 1;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    color: #616161;
+}
+.menu ul li{
+    margin: 10px;
+    color: black;
+}
+.menu ul li:hover{
+    color: red;
+    cursor: pointer;
+}
+button{
+    border: none;
+    color: white;
+    background-color: red;
+    padding: 0px 20px;
+    border-radius: 5px;
+}

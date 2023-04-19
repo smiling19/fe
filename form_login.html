@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập hệ thống</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <div class="m-5 p-5 text-danger bg-black border border-4 border-danger rounded-5">
+        <h1 class="text-center mb-4">Đăng nhập hệ thống</h1>
+        <form action="" method="get">
+        <div class="mb-1"> 
+        
+            <input required placeholder="Tên đăng nhập" class="form-control" type="text" name="UserName" id="TenDangNhap">
+        </div>
+    
+        <div>
+            
+            <input required placeholder="Mật khẩu" class="form-control" type="password" name="password" id="MatKhau">
+        </div>
+    
+        <div class="form-text">
+            <a href="#">Quên mật khẩu</a>
+        </div>
+    
+        <div>
+            <label class="form-label" for="nhoMatKhau">Nhớ mật khẩu</label>
+            <input class="form-check-input" type="checkbox" name="rememberMe" id="nhoMatKhau">
+        </div>
+    
+        <div class="text-end">
+                <button class="btn btn-primary" type="submit">Đăng nhập</button>
+                <button class="btn btn-outline-danger" type="reset">Nhập lại</button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

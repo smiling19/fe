@@ -1,0 +1,28 @@
+div{
+    min-height: 100px;
+    min-width: 200px;
+}
+div.item:nth-child(2n){
+    background-color: red;
+}
+div.item:nth-child(2n+1){
+    background-color: blue;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div.item{
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.item:nth-child(2){
+    background-color: gold;
+    flex-grow: 1;
+}
